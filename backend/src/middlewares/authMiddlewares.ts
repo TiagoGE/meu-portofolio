@@ -1,0 +1,17 @@
+import { Request, Response, NextFunction } from "express";
+import jwt from "jsonwebtoken";
+
+export function authMiddleware(req: Request, res: Response, next: NextFunction){
+
+    const token = req.header("Authorization")?.replace("Bearer ", "");
+
+    if(!token) return res.status(401).json({message: "Access Denied"});
+
+    try{
+        jwt.verify(token, process.env.JWT_SECRET as string);
+        next();
+    }catch{
+        res.status(401).json({message: "Inavlid Token"});
+    }
+
+}

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* O seu estilo customizado continua funcionando aqui embaixo */
+body {
+  @apply bg-slate-900 text-slate-100 pt-20;
+}
