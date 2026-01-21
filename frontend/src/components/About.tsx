@@ -22,9 +22,9 @@ export function About() {
 
           <div className="space-y-6 text-slate-400 leading-relaxed text-lg">
             <p>
-              Minha jornada na tecnologia é movida pela curiosidade de entender como as grandes engrenagens 
-              funcionam por baixo do capô. Como desenvolvedor focado em <span className="text-blue-500 font-semibold italic">Backend</span>, 
-              não vejo apenas linhas de código, mas sim a lógica que sustenta sistemas resilientes e confiáveis. 
+              Sempre tive interesse em entender o que acontece por trás de uma aplicação. 
+              Como desenvolvedor focado em <span className="text-blue-500 font-semibold italic">Backend</span>, não vejo 
+              apenas linhas de código, mas sim a lógica e a estrutura que sustentam sistemas resilientes e confiáveis.
             </p>
             
             <p>
