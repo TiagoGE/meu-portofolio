@@ -24,7 +24,7 @@ export function Navbar() {
                     <a
                         href="/cv.pdf" className="px-3 py-1 text-xs rounded-full border border-slate-600 
                         text-slate-300 hover:text-blue-400 hover:border-blue-400 transition"
-                        download="TiagoGuerra_CV">
+                        download="TiagoGuerra_CV.pdf">
                         Baixar CV
                     </a>
                 </div>
