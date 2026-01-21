@@ -17,7 +17,6 @@ export function About() {
 
         {/* Lado do Texto */}
         <div>
-          <p className="text-blue-500 font-mono text-sm tracking-widest uppercase mb-2">Quem eu sou</p>
           <h2 className="text-4xl font-black text-white uppercase tracking-tighter mb-8">Sobre Mim</h2>
 
           <div className="space-y-6 text-slate-400 leading-relaxed text-lg">
